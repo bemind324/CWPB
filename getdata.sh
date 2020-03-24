@@ -14,8 +14,8 @@ then
     echo "Syntax : ./boost.sh <YOUR-ACCOUNT-ID> [INTERVAL]"
     echo "YOUR-ACCOUNT-ID is required. INTERVAL (in seconds) is optional (Default = 20s)"
     echo "Valid syntax:"
-    echo "Without interval  : ./boost.sh 9fc5e6e6-2418-4b81-ac46-b49d515d62e9"
-    echo "With inteval      : ./boost.sh 9fc5e6e6-2418-4b81-ac46-b49d515d62e9 20"
+    echo "Without interval  : ./boost.sh 971beba6-4801-4137-b579-789c90329038"
+    echo "With inteval      : ./boost.sh 971beba6-4801-4137-b579-789c90329038 20"
     exit 0;
 fi
 
