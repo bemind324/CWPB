@@ -30,9 +30,9 @@ i=0
 while true
 do
     i=$((i+1))
-    install_id=`pwgen 13 1`
-    key=`pwgen 42 1`
-    fcm_token=`pwgen 134 1`
+    install_id=``
+    key=``
+    fcm_token=``
     now=`date +"%Y-%m-%dT%H:%M:%S.123+07:00"`
     data="{\"key\":\"$key=\",\"install_id\": \"$install_id\",\"fcm_token\": \"$install_id:APA91b$fcm_token\",\"referrer\": \"$referal\",\"warp_enabled\": false,\"tos\": \"$now\",\"type\": \"Android\",\"locale\": \"zh-CN\"}"
     result=$(curl -s \
